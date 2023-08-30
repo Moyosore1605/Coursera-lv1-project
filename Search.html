@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/dist/assets/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Search.css">
+    <title>Coursera Search Page</title>
+</head>
+
+<body>
+    <nav class="navbar nav1 justify-content-between pt-2 pb-2 ps-4 pe-4">
+        <i class="fa fa-bars icon2"></i>
+        <div class="d-flex justify-content-between div1">
+            <a href="#" class="nav-link link1 p-0">coursera</a>
+            <div class="dropdown">
+                <button class="btn btn2">
+                    <small class="me-2">Explore</small>
+                    <i class="fa fa-angle-down icon1"></i>
+                </button>
+                <div class="dropdown-content pb-5">
+                    <div>
+                        <h5 class="ms-3">Goals</h5>
+                        <a href="#">Take a free course <i class="fa fa-chevron-right pl-5 ml-5"></i></a>
+                        <a href="#">Earn a Degree <i class="fa fa-chevron-right"></i> </a>
+                        <a href="#">Earn Certificate <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Launch or advance your career <i class="fa fa-chevron-right"></i></a>
+                    </div><br><br>
+                    <div>
+                        <h5 class="ms-3">Subjects</h5>
+                        <a href="#">Data Science <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Business <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Computer Science <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Information Technology <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Language Learning <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Health <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Personal Development <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Physical Science and Engineering <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Social Sciences <i class="fa fa-chevron-right pl-5 ml-5"></i></a>
+                        <a href="#">Arts and Humanities <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Math and Logic <i class="fa fa-chevron-right pl-5 ml-5"></i></a>
+                        <button class="btn15 p-2 mt-2 ms-3 mb-5">Browse all Subjects</button>
+                    </div>
+                </div>
+            </div>
+            <section class="d-flex sec1">
+                <input type="text" class=" ps-2 input1" value="vue">
+                <i class="material-icons icon d-flex justify-content-center">
+                    <a href="/Coursera/Search.html" style="text-decoration:none;" class="text-white">search</a>
+                </i>
+            </section>
+        </div>
+        <div class="d-flex div2">
+            <a class="nav-link link2" href="#">For Enterprise</a>
+            <a class="nav-link link2" href="#">For Students</a>
+            <a class="nav-link link3" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</a>
+            <!-- The First Modal  -->
+            <div class="modal fade" id="exampleModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable p-0">
+                    <div class="modal-content p-0">
+                        <div class="modal-body p-0 pb-3 pt-2 pe-3">
+                            <div class="container cbr bg-white pt-4 ps-5">
+                                <button class="btn-close btn-lg me-3 btnfr" data-bs-dismiss="modal"></button><br>
+                                <h3 class="mh3">Welcome back</h3>
+                                <div>
+                                    <label>EMAIL</label><br>
+                                    <input type="text" placeholder="name@email.com" class="input13">
+                                </div>
+                                <div class="mt-3">
+                                    <label>PASSWORD</label><br>
+                                    <input type="password" placeholder="Enter your password" class="input13">
+                                </div><br>
+                                <a href="#" class="nav-link">Forget password?</a><br>
+                                <div>
+                                    <button class="btn btnb input13 text-light">Login</button>
+                                </div>
+                                <div class="d-flex" style="padding-top: 10px;">
+                                    <hr width="40%">
+                                    <span style="padding-left: 15px; padding-right: 15px;">or</span>
+                                    <hr width="40%">
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn btngfa d-flex align-items-center">
+                                        <img src="/images/modimg1.PNG"><span class="me-5">Continue with Google</span>
+                                    </button><br>
+                                    <button class="btn btngfa d-flex align-items-center">
+                                        <img src="/images/modimg2.PNG"><span class="me-5">Continue with Facebook</span>
+                                    </button><br>
+                                    <button class="btn btngfa d-flex align-items-center">
+                                        <img src="/images/modimg3.PNG"><span class="me-5">Continue with Apple</span>
+                                    </button>
+                                </div>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>New to Coursera?</span><a href="#" style="text-decoration: none;">Sign up</a>
+                                </div>
+                                <hr>
+                                <div style="text-align:center;font-size:14px;">
+                                    <a href="#" style="text-decoration: none;">Log in with your organization</a>
+                                </div><br>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>Having trouble logging in?</span><a href="#" class="text-dark">Learner
+                                        help center</a>
+                                </div><br>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>This site is protected by reCAPTCHA Enterprise and <br> the Google</span>
+                                    <a href="#" class="text-dark">Privacy Policy.</a><span> and</span>
+                                    <a href="#" class="text-dark">Terms and Service</a><span> apply.</span>
+                                </div><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn1 p-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">Join for Free</button>
+            <!-- The Second Modal  -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable p-0">
+                    <div class="modal-content p-0">
+                        <div class="modal-body p-0 pb-3 pt-2 pe-3">
+                            <div class="container cbr bg-white pt-4 ps-5">
+                                <button class="btn-close btn-lg me-3 btnfr" data-bs-dismiss="modal"></button><br>
+                                <h3 class="mh3">Sign Up</h3>
+                                <p class="mop">Learn on your own time from top <br> universities and businesses.</p>
+                                <div>
+                                    <label>FULL NAME</label>
+                                    <input type="text" placeholder="Enter your full name" class="input13">
+                                </div>
+                                <div>
+                                    <label>EMAIL</label><br>
+                                    <input type="text" placeholder="name@email.com" class="input13">
+                                </div>
+                                <div class="mt-3">
+                                    <label>PASSWORD</label><br>
+                                    <input type="password" placeholder="Enter your password" class="input13">
+                                </div>
+                                <small>Between 8 and 72 characters</small><br><br>
+                                <div>
+                                    <button class="btn btnb input13 text-light">Join for Free</button>
+                                </div>
+                                <div class="d-flex" style="padding-top: 10px;">
+                                    <hr width="40%">
+                                    <span style="padding-left: 15px; padding-right: 15px;">or</span>
+                                    <hr width="40%">
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn btngfa d-flex align-items-center">
+                                        <img src="/images/modimg1.PNG"><span class="me-5">Continue with Google</span>
+                                    </button><br>
+                                    <button class="btn btngfa d-flex align-items-center">
+                                        <img src="/images/modimg2.PNG"><span class="me-5">Continue with Facebook</span>
+                                    </button><br>
+                                </div>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>Already on Coursera?</span><a href="#" style="text-decoration:none;">Log
+                                        in</a>
+                                </div>
+                                <hr>
+                                <div style="text-align: center;font-size:14px;">
+                                    <a href="#" style="text-decoration: none;">Sign up with your organization</a>
+                                </div><br>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>I accept Coursera's<a href="#" class="text-dark"> Terms of use</a> and <a
+                                            href="#" class="text-dark">Privacy Notice.</a><br>Having trouble logging in?
+                                        <a href="#" class="text-dark">Learner help center</a> </span>
+                                </div><br>
+                                <div style="text-align:center;font-size:14px;">
+                                    <span>This site is protected by reCAPTCHA Enterprise and <br> the Google</span>
+                                    <a href="#" class="text-dark">Privacy Policy.</a><span> and</span>
+                                    <a href="#" class="text-dark">Terms and Service</a><span> apply.</span>
+                                </div><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Second Nav -->
+    <nav class="navbar nav2 d-flex">
+        <section class="sec11 ps-5"><i class="fa fa-bars"></i></section>
+        <section class="sec21 d-flex"><a href="#" class="nav-link link1 p-0">coursera</a></section>
+    </nav>
+
+    <!-- The Second Input -->
+    <div class="divsecin d-flex justify-content-center">
+        <section class="d-flex sec1 secin">
+            <input type="text" class=" ps-2 input1" value="vue">
+            <i class="material-icons icon d-flex justify-content-center">
+                <a href="/Coursera/Search.html" style="text-decoration:none;" class="text-white">search</a>
+            </i>
+        </section>
+    </div>
+
+    <main class="navtabs1 ps-5 p-2 pb-0">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <button class="nav-link text-dark active p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#All">All</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#Guided Projects">Guided
+                    Projects</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#Degrees & Certificates">Degrees & Certificates</button>
+            </li>
+        </ul>
+    </main>
+    <main class="navtabs1 avta2 ps-5 p-2 pb-0">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <button class="nav-link text-dark active p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#All">All</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#Guided Projects">Guided
+                    Projects</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark p-3 pt-2 pb-2" data-bs-toggle="tab"
+                    data-bs-target="#Degrees & Certificates">Degrees</button>
+            </li>
+        </ul>
+    </main>
+    <main class="tab-content">
+        <div class="tab-pane active" id="All">
+            <!-- body.. -->
+            <main class="nvdwn mt-5 ps-3 pb-4">
+                <h6>Showing 34 total results for "vue"</h6>
+                <small class="ms-5 ps-5">Filter by</small>
+                <section class="d-flex justify-content-between ms-5 pe-2 ps-5">
+                    <div class="dropdown dpdw d-flex">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Language</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">French<span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Spanish<span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">English<span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Russian<span>(6)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">German<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Vietnamese<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Arabic<span>(4)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Italian<span>(3)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Portugese<span>(2)</span></a>
+                            <a href="#"><span style="color:blue;">Clear</span><span style="color:blue;">Show
+                                    All</span></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw d-flex">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Level</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">Beginner<span>(11)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Intermediate <span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Mixed<span>(9)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Advanced<span>(6)</span></a>
+                            <a href="#"><span style="color:blue;">Clear</span></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Duration</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">1-3 months<span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">1-4weeks<span>(6)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">3+ months<span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Less than 2hrs <span>(5)</span></a>
+                            <a href="#"><span style="color: blue;">Clear</span></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Subject</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">Physical Science <span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Computer Science <span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Social Siences <span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Business<span>(6)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Data Science <span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Health<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Information Technology <span>(4)</span></a>
+                            <a href="#"><span style="color:blue;">Clear</span></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Skills</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">Communication <span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Leadership<span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Management<span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Business psychology<span>(6)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Computer programming<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Finance<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Marketing<span>(4)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Sales<span>(3)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">software Engineering <span>(2)</span></a>
+                            <a href="#"><span style="color: blue;">Clear</span></a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Partner</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3">
+                            <a href="#"><input type="checkbox" class="me-5">Microsoft<span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Google<span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Auto Desk<span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Essec Business School <span>(6)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Coursera Project Network
+                                <span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">hubstaff<span>(5)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Sturtern<span>(4)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Havard University <span>(3)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Stocklom University <span>(2)</span></a>
+                            <a href="#"><span style="color: blue;">Clear</span> </a>
+                        </div>
+                    </div>
+                    <div class="dropdown dpdw">
+                        <section class="d-flex secdrp bg-white justify-content-between p-1 pb-2">
+                            <p class="m-0">Learning Product</p>
+                            <i class="fa fa-angle-down"></i>
+                        </section>
+                        <div class="dropdown-content bg-white pb-3 drdc1">
+                            <a href="#"><input type="checkbox" class="me-5">Guided Projects <span>(17)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Courses<span>(16)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Specializations <span>(14)</span></a>
+                            <a href="#"><input type="checkbox" class="me-5">Proffesional Certificate<span>(6)</span></a>
+                            <a href="#"><span style="color: blue;">Clear</span></a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <main class="nvdwn nvdwn2 mt-5 ps-3 pe-3 pb-4 justify-content-between">
+                <h6>Showing 34 total results for "vue"</h6>
+                <i class="fa fa-bars text-primary"></i>
+            </main>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Alimentaciaon y dietetica para una vuelta al mundo a vela</h4>
+                        <small>Universitat de Barcelona</small><br>
+                        <button style="border:none; border-radius: 3px;">Course</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg">
+                        <small>4.6(147) | 16k students</small><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Mixed</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic1.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Estrategias para ganar. Meteorologia en la vuelta al mundo</h4>
+                        <small>Universitat de Barcelona</small><br>
+                        <button style="border: none; border-radius: 3px;">Course</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg">
+                        <small>4.6(147) | 16k students</small><br>
+                        <img
+                            src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Intermediate</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic2.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Write a University Index Web App with VueJS</h4>
+                        <small>Coursera Project Network</small><small
+                            style="background-color: lightgreen; padding: 5px; margin-left: 10px; border-radius: 5px;">NEW</small><br>
+                        <button style="border: none; border-radius: 3px;">Guided Project</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg">
+                        <small>4.6(147) | 16k students</small><br>
+                        <img
+                            src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Intermediate</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic3.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Crea una aplicacion wen con Vue.js</h4>
+                        <small>Coursera Project Network</small><small
+                            style="background-color: lightgreen; padding: 5px; margin-left: 10px; border-radius: 5px;">NEW</small><br>
+                        <button style="border: none; border-radius: 3px;">Guided Project</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"> <small>4.6(147) | 16k
+                            students</small><br>
+                        <img
+                            src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Intermediate</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic4.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Empezando a trabajar con VueJS</h4>
+                        <small>Coursera Project Network</small><small
+                            style="background-color: lightgreen; padding: 5px; margin-left: 10px; border-radius: 5px;">NEW</small><br>
+                        <button style="border: none; border-radius: 3px;">Guided Project</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"><small>4.6(147) | 16k
+                            students</small><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Beginner</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic5.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Create a Web Link Preview with VueJS Components</h4>
+                        <small>Coursera Project Network</small><small
+                            style="background-color: lightgreen; padding: 5px; margin-left: 10px; border-radius: 5px;">NEW</small><br>
+                        <button style="border: none; border-radius: 3px;">Guided Project</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"><small>4.6(147) | 16k
+                            students</small><br>
+                        <img
+                            src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Intermediate</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic6.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Microsoft Azure Data Fundementals AZ-900 Exam Prep</h4>
+                        <small>Microsoft</small><br>
+                        <button style="border: none; border-radius: 3px;">Specialization</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"><small>4.6(147) | 16k
+                            students</small><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Beginner</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic7.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>Programa Especializado en Gerencia de Proyectos Complejos</h4>
+                        <small>Universitat de los Andes</small><br>
+                        <button style="border: none; border-radius: 3px;">Specialization</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"><small>4.6(147) | 16k
+                            students<small><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Intermediate</small>
+                    </div>
+                </main>
+            </a>
+
+            <a href="/Coursera/IBM.html" class="text-dark" style="text-decoration:none;">
+                <main class="container d-flex course">
+                    <img src="/Cousera( Lv 1 Project)/coursera search button/coursepic8.jpg" class="img">
+                    <div style="padding-left: 20px;">
+                        <h4>AutoDesk Certified Proffesional:Revit fot Architectural Design Exam Prep</h4>
+                        <small>AutoDesk</small><br>
+                        <button style="border: none; border-radius: 3px;">Course</button><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/Ratings.jpg"><small>4.6(147) | 16k
+                            students</small><br>
+                        <img src="/Cousera( Lv 1 Project)/coursera search button/readings.jpg"><small>Advanced</small>
+                    </div>
+                </main>
+            </a>
+
+            <main class="container">
+                <h6>Searches related to "vue"</h6>
+            </main>
+            <main class="container lnkdiv d-flex">
+                <div class="me-5 diva">
+                    <a href="#">vue.js</a><br>
+                    <a href="#">empenzando a trabarjar con vuejs</a><br>
+                    <a href="#">crea una aplicacion web con vue.js</a><br>
+                    <a href="#">estrategias para ganar. meteorologia en la vuelta al mundo</a><br><br>
+                </div><br>
+                <div class="diva">
+                    <a href="#">vuejs</a><br>
+                    <a href="#">alimentaciaon y dietacica para una vuelta a mundo al vela</a><br>
+                    <a href="#">create a web link video with vuejs components</a><br>
+                    <a href="#">write a university index web app with vuejs</a><br>
+                </div>
+            </main><br><br><br>
+
+            <div style="text-align:center;" class="diva justify-content-center d-flex diva1">
+                <section class=" d-flex align-items-center">
+                    <a href="#" class="me-3 text-dark bg-secondary"><i class="fa fa-angle-left"></i></a>
+                    <a href="#" class="me-3 text-dark" style="font-weight:bold;">1</a>
+                    <a href="#" class="me-3 text-dark">2</a>
+                    <a href="#" class="me-3 text-dark">3</a>
+                    <a href="#" class="me-3 text-dark">4</a>
+                    <a href="#" class="text-dark bg-primary"><i class="fa fa-angle-right"></i></a>
+                </section>
+            </div><br><br><br>
+            <hr><br><br>
+
+            <main class="container-fluid plarge ps-5">
+                <h6>What Coursera Has to Offer</h6><br>
+                <main class="container-fluid d-flex">
+                    <p class="text-secondary me-4" style="font-weight: 600;">Learning Program</p>
+                    <p class="text-secondary ms-3" style="font-weight: 600;">Description</p>
+                </main>
+                <br>
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">Guided Project</button>
+                    <p>Learn a job-relevant skill that you can use today in under 2 hours through an interactive
+                        experience guided by a subject matter expert. Access everything you need
+                        right in your browser and complete your project confidently with step-by-step instructions.</p>
+                </main><br>
+                <hr>
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">Course</button>
+                    <p class="ms-5">Take courses from the world's best instructors and universities. Courses include
+                        recorded
+                        auto-graded and peer-reviewed assignments, video lectures, and community discussion forums. When
+                        you
+                        complete a
+                        course, you’ll be eligible to receive a shareable electronic Course Certificate for a small fee.
+                    </p>
+                </main><br>
+                <hr>
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">Specialization</button>
+                    <p class="ms-1">
+                        Enroll in a Specialization to master a specific career skill. You’ll complete a series of
+                        rigorous
+                        courses, tackle hands-on projects, and earn a Specialization
+                        Certificate to share with your professional network and potential employers.</p>
+                </main><br>
+                <hr>
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">Certificate</button>
+                    <p class="ms-4">Whether you’re looking to start a new career or change your current one,
+                        Professional
+                        Certificates on Coursera help you become job ready. Learn at your own pace from top companies
+                        and
+                        universities,
+                        apply your new skills to hands-on projects that showcase your expertise to potential employers,
+                        and earn
+                        a
+                        career credential to kickstart your new career.</p>
+                </main><br>
+                <hr>
+
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">MasterTrack</button>
+                    <p class="ms-2">With MasterTrack® Certificates, portions of Master’s programs have been split into
+                        online
+                        modules, so you can earn a high quality university-issued career credential at a breakthrough
+                        price in a
+                        flexible, interactive format. Benefit from a deeply engaging learning experience with real-world
+                        projects and
+                        live, expert instruction. If you are accepted to the full Master's program, your MasterTrack
+                        coursework
+                        counts towards your degree.</p>
+                </main><br>
+                <hr>
+                <main class="container-fluid d-flex">
+                    <button class="btn bg-secondary me-5" style="height:40px;">Degree</button>
+                    <p style="margin-left:35px;">Transform your resume with a degree from a top university for a
+                        breakthrough
+                        price. Our modular degree learning experience gives you the ability to study online anytime and
+                        earn
+                        credit as you
+                        complete your course assignments. You'll receive the same credential as students who attend
+                        class on
+                        campus. Coursera degrees cost much less than comparable on-campus programs.</p>
+                </main><br>
+            </main>
+            <main class="final d-flex justify-content-between p-5">
+                <ul>
+                    <li class="li">Start or advance your career</li>
+                    <li><a href="#">Google Data Analyst</a></li>
+                    <li><a href="#">Google Project Management</a></li>
+                    <li><a href="#">Google UX Design</a></li>
+                    <li><a href="#">Google IT Support</a></li>
+                    <li><a href="#">IBM Data Science</a></li>
+                    <li><a href="#">IBM Data Analyst</a></li>
+                    <li><a href="#">IBM Data Analytics with Excel and R</a></li>
+                    <li><a href="#">IBM Cybersecurity Analyst</a></li>
+                    <li><a href="#">Facebook Social Media Marketing</a></li>
+                    <li><a href="#">IBM Full Stack Cloud Developer</a></li>
+                    <li><a href="#">Salesforce Sales Development Representative</a></li>
+                    <li><a href="#">Salesforce Sales Operations</a></li>
+                    <li><a href="#">Soporte de Tecnologías de la Información de <br> Google</a></li>
+                    <li><a href="#">Certificado profesional de Suporte em TI do <br> Google</a></li>
+                    <li><a href="#">Google IT Automation with Python</a></li>
+                    <li><a href="#">DeepLearning.AI Tensorflow</a></li>
+                    <li><a href="#">Popular Cybersecurity Certifications</a></li>
+                    <li><a href="#">Popular SQL Certifications</a></li>
+                    <li><a href="#">Popular IT Certifications</a></li>
+                    <li><a href="#">See all certificates</a></li>
+                </ul>
+                <ul>
+                    <li class="li">Browse popular topics</li>
+                    <li><a href="#">Free Courses</a></li>
+                    <li><a href="#">Learn a Language</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">SQL</a></li>
+                    <li><a href="#">Cursos Gratis</a></li>
+                    <li><a href="#">Microsoft Excel</a></li>
+                    <li><a href="#">Project Management</a></li>
+                    <li><a href="#">Cybersecurity</a></li>
+                    <li><a href="#">Human Resources</a></li>
+                    <li><a href="#">Data Science Free Courses</a></li>
+                    <li><a href="#">Speaking English</a></li>
+                    <li><a href="#">Content Writing</a></li>
+                    <li><a href="#">Full Stack Web Development</a></li>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">C Probgramming</a></li>
+                    <li><a href="#">Communication Skills</a></li>
+                    <li><a href="#">Blockchain</a></li>
+                    <li><a href="#">See all courses</a></li>
+                </ul>
+                <ul>
+                    <li class="li">Upskill your team</li>
+                    <li><a href="#">Skills for Data Science Teams</a></li>
+                    <li><a href="#">Data Driven Decision Making</a></li>
+                    <li><a href="#">Software Engineering Skills</a></li>
+                    <li><a href="#">Soft Skills for Engineering Teams</a></li>
+                    <li><a href="#">Management Skills</a></li>
+                    <li><a href="#">Marketing Skills</a></li>
+                    <li><a href="#">Skills for Sales Teams</a></li>
+                    <li><a href="#">Product Manager Skills</a></li>
+                    <li><a href="#">Skills for Finance</a></li>
+                    <li><a href="#">Android Development Projects</a></li>
+                    <li><a href="#">TensorFlow and Keras Projects</a></li>
+                    <li><a href="#">Python for Everybody</a></li>
+                    <li><a href="#">Deep Learning</a></li>
+                    <li><a href="#">Excel Skills for Business</a></li>
+                    <li><a href="#">Business Foundations</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">AWS Fundamentals</a></li>
+                    <li><a href="#">Data Engineering Foundations</a></li>
+                    <li><a href="#">Data Analyst Skills</a></li>
+                    <li><a href="#">Skills for UX Designers</a></li>
+                </ul>
+                <ul>
+                    <li class="li">Earn a debgree or certificate <br> online</li>
+                    <li><a href="#">MasterTrack® Certificates</a></li>
+                    <li><a href="#">Professional Certificates</a></li>
+                    <li><a href="#">University Certificates</a></li>
+                    <li><a href="#">MBA & Business Degrees</a></li>
+                    <li><a href="#">Data Science Degrees</a></li>
+                    <li><a href="#">Computer Science Degrees</a></li>
+                    <li><a href="#">Data Analytics Degrees</a></li>
+                    <li><a href="#">Public Health Degrees</a></li>
+                    <li><a href="#">Social Sciences Degrees</a></li>
+                    <li><a href="#">Management Degrees</a></li>
+                    <li><a href="#">Degrees from Top European Universities</a></li>
+                    <li><a href="#">Master's Degrees</a></li>
+                    <li><a href="#">Bachelor's Degrees</a></li>
+                    <li><a href="#">Degrees with a Performance Pathway</a></li>
+                    <li><a href="#">Bsc Courses</a></li>
+                    <li><a href="#">What is a Bachelor's Degree?</a></li>
+                    <li><a href="#">How Long Does a Master's Degree Take?</a></li>
+                    <li><a href="#">Is an Online MBA Worth It?</a></li>
+                    <li><a href="#">7 Ways to Pay for Graduate School</a></li>
+                    <li><a href="#">See all degrees</a></li>
+                </ul>
+            </main>
+
+            <main class="final d-flex justify-content-between p-5">
+                <ul>
+                    <li class="li">Coursera</li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">What We Offer</a></li>
+                    <li><a href="#">Leadership</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">Coursera Plus</a></li>
+                    <li><a href="#">Professional Certificates</a></li>
+                    <li><a href="#">MasterTrack™ Certificates</a></li>
+                    <li><a href="#">Degrees</a></li>
+                    <li><a href="#">For Enterprise</a></li>
+                    <li><a href="#">For Government</a></li>
+                    <li><a href="#">For Campus</a></li>
+                </ul>
+                <ul>
+                    <li class="li">Community</li>
+                    <li><a href="#">Learners</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Beta Testers</a></li>
+                    <li><a href="#">Translators</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Tech Blog</a></li>
+                    <li><a href="#">Teaching Center</a></li>
+                </ul>
+                <ul>
+                    <li class="li">More</li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                </ul>
+                <div class="dili d-flex align-items-center">
+                    <a href="#"><img src="/images/courseraimg34.PNG"></a>
+                    <a href="#"><img src="/images/courseraimg35.PNG"></a>
+                    <img src="/images/courseraimg33.PNG" width="75px">
+                </div>
+            </main>
+            <main class="final">
+                <div class="copyright d-flex justify-content-between">
+                    <p class="pfinal">&copy;2021 Coursera Inc. All rights reserved.</p>
+                    <section class="secfinal d-flex">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-instagram"></i>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+<script src="/dist/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+    });
+</script>
